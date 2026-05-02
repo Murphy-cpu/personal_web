@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murphy-cpu | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 网格背景 Canvas -->
+    <canvas id="gridCanvas"></canvas>
+
+    <!-- 知识图谱 Canvas -->
+    <canvas id="graphCanvas"></canvas>
+
+    <!-- 主内容区域 -->
+    <div class="content">
+        <header>
+            <h1>Murphy-cpu</h1>
+            <p class="subtitle">Developer · Creator · Thinker</p>
+        </header>
+
+        <!-- 侧边信息面板 -->
+        <div id="infoPanel" class="info-panel hidden">
+            <h2 id="panelTitle">节点标题</h2>
+            <p id="panelDesc">节点描述</p>
+            <div id="panelLinks"></div>
+        </div>
+
+        <!-- 底部导航提示 -->
+        <footer>
+            <p>点击节点查看详情 · 拖拽节点调整位置 · 滚轮缩放</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
